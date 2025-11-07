@@ -36,7 +36,7 @@
     </section>
 
     <section id="portfolio" class="bg-gray-950 py-16 px-6">
-        <h2 class="text-2xl font-semibold text-center text-white mb-10">Portfolio</h2>
+        <h2 class="text-2xl font-semibold text-center text-white mb-10">Video Portfolio</h2>
         <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
             <!-- Video 1 -->
@@ -83,13 +83,51 @@
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
-
-            <!-- App link -->
-            <div>
-                <a href="https://apps.apple.com/us/app/online-piano-lessons/id6476836769">Get the app</a>
-            </div>
         </div>
     </section>
+
+    <section id="app" class="flex bg-black/70 py-16 px-6 flex-col items-center justify-center text-center">
+        <h2 class="text-2xl font-semibold text-center text-white mb-10">Programming</h2>
+        <h1 class="text-white">Download my Online Piano Lessons app for iOS. A fun and interactive way to learn piano from a trained professional!</h1>
+        <div class="mt-4">
+            <a href="https://apps.apple.com/us/app/online-piano-lessons/id6476836769" class="text-blue-600 hover:underline">
+                <img src="OML icon.webp" alt="OML in large orange uppercase letters above handwritten black Piano on a white rounded-square app icon with subtle drop shadow, clean modern design conveying a friendly, inviting tone" class="inline-block w-20 h-20">
+                <h1 class="text-white">Get the iOS App</h1>
+            </a>
+
+
+        </div>
+   </section>
+
+    <section id="contact" class="bg-gray-100 py-16 px-6">
+        <h2 class="text-2xl font-semibold text-center text-gray-900 mb-6">Contact Me</h2>
+        <div class="max-w-xl mx-auto bg-white p-8 rounded-xl shadow-lg">
+            <form action="mailto:bmahne81@gmail.com" method="post" enctype="text/plain">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700 font-medium mb-2">Name</label>
+                    <input type="text" id="name" name="name" required
+                           class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
+                    <input type="email" id="email" name="email" required
+                           class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+                    <textarea id="message" name="message" rows="5" required
+                              class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit"
+                            class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors">
+                        Send Message
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+    
     <!-- Footer -->
     <footer class="bg-gray-900 text-gray-400 text-center py-6">
         <p>© 2025 Brian Mahne. All Rights Reserved.</p>

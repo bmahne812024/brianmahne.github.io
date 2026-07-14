@@ -35,10 +35,16 @@
   </div>
     </section>
 
-    <section id="portfolio" class="bg-gray-950 py-16 px-6">
-        <h2 class="text-2xl font-semibold text-center text-white mb-10">Video Portfolio</h2>
-        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <section id="portfolio" class="relative overflow-hidden py-16 px-6">
+        <video autoplay muted loop playsinline preload="auto" class="absolute inset-0 w-full h-full object-cover">
+            <source src="Banner_1.mp4" type="video/mp4">
+        </video>
+        <div class="absolute inset-0 bg-black/60"></div>
 
+        <div class="relative z-10 max-w-6xl mx-auto">
+            <h2 class="text-2xl font-semibold text-center text-white mb-10">Video Portfolio</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+         
 
              <!-- Video 1 -->
             <div class="aspect-video">
@@ -95,6 +101,7 @@
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
+        </div>
         </div>
     </section>
 
